@@ -2,18 +2,13 @@
 
 👋 Hi there!
 
-In this project, you'll build a simple API that fetches some info about a given URL/webpage and makes the results accessible. The goal of this project is to see how you approach a problem and set of requirements given few constraints on how to approach it.
+In this project, you'll build a simple API that fetches some info about a given URL/webpage and makes the results accessible. The goal of this project is to see how you approach a given problem & set of requirements with little constraint on how to approach it.
 
-For reference, our stack is heavily based on TypeScript & Node.js and we use PostgreSQL for our primary database. How you tackle this project is entirely up to you however!
+For reference, our stack is largely based on TypeScript & Node.js. We use PostgreSQL for our primary database, but any relational database is fine. How you tackle this project is entirely up to you!
 
 # Setting Up
 
-This project requires you to have Node.js installed. We recommend the [active LTS release](https://nodejs.org/en/about/releases/).
-
-1. Start by cloning this repository.
-2. Inside the project root directory, run `npm install` to install dependencies.
-3. Run `npm run seed` to seed the SQLite database with some starting data. **This command drops existing tables if they exist**. The database is located at `db.sqlite` inside the project root.
-4. Run `npm start` which will start the server as well as the React client app.
+To get started, make sure you have Node.js installed. We recommend the [active LTS release](https://nodejs.org/en/about/releases/). Afterward, clone this repository. The project will contain an empty `index.js` file you're free to begin working in. If you have another approach in mind, just delete this file. 
 
 # Requirements
 
