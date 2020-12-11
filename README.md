@@ -1,19 +1,10 @@
 # Vizion API Challenge
 
-👋 Hi there!
+:wave: Hi there!
 
-In this project, you'll build a simple API that fetches some info about a given URL/webpage and makes the results accessible. The goal of this project is to see how you approach a problem and set of requirements given few constraints on how to approach it.
+In this project, you'll build a simple API that fetches some info about a given URL/webpage and makes the results accessible. This project aims to see how you approach a problem and set requirements given a few constraints on how to approach it.
 
-For reference, our stack is heavily based on TypeScript & Node.js and we use PostgreSQL for our primary database. How you tackle this project is entirely up to you however!
-
-# Setting Up
-
-This project requires you to have Node.js installed. We recommend the [active LTS release](https://nodejs.org/en/about/releases/).
-
-1. Start by cloning this repository.
-2. Inside the project root directory, run `npm install` to install dependencies.
-3. Run `npm run seed` to seed the SQLite database with some starting data. **This command drops existing tables if they exist**. The database is located at `db.sqlite` inside the project root.
-4. Run `npm start` which will start the server as well as the React client app.
+For reference, our stack leans heavily towards TypeScript & Node.js, and we use PostgreSQL for our primary database. How you tackle this project is entirely up to you, however!
 
 # Requirements
 
@@ -21,7 +12,7 @@ Develop a [RESTful](https://restfulapi.net/) API to complete the following:
 
 #### 1. Create a New Reference
 
-- Add an endpoint to that accepts a URL in the request body and create and return a new [`Reference`](#reference) record as JSON.
+- Add an endpoint that accepts a URL in the request body and create and return a new [`Reference`](#reference) record as JSON.
 - During this process, you should also initiate an asynchronous task to fetch data from the URL saved in the [`Reference`](#reference). [More information on fetching data is below](#data-fetching-notes).
 - **Note:** The endpoint should return the [`Reference`](#reference) record without waiting for it to be processed.
 
@@ -33,7 +24,7 @@ Develop a [RESTful](https://restfulapi.net/) API to complete the following:
 
 #### 3. Make the Results Accessible
 
-- Add another GET endpoint that allows a user to fetch results for a given [`Reference`](#reference) ID. This endpoint should return a list of results that have been saved for the given [`Result`](#result) as JSON. Don't forget to keep it RESTful and keep [resource naming best practices](https://restfulapi.net/resource-naming/) in mind as you go.
+- Add another GET endpoint that allows a user to fetch results for a given [`Reference`](#reference) ID. This endpoint should return a list of saved results for a given [`Result`](#result) as JSON. Don't forget to keep it RESTful and keep [resource naming best practices](https://restfulapi.net/resource-naming/) in mind as you go.
 
 ## Data Fetching Notes
 
@@ -64,22 +55,22 @@ A result is created after a data fetching task for a `Reference` is completed.
 
 # Bonus Points
 
-Other things that are not required but we would love to see:
+Other things that are not required, but we would love to see:
 
-- Test coverage (We tend to use [Jest](https://jestjs.io/)
+- Test coverage (We tend to use [Jest](https://jestjs.io/))
 - Additional validations
 - More endpoints (fetch all references, delete a reference & its results, etc.)
-- Make use of an actual job queue (Redis, ElasticMQ, etc)
+- Make use of an actual job queue (Redis, ElasticMQ, etc.)
 - Anything else you can think of!
 
-If you don't get a chance to implement bonus items, no worries. Feel free to share some notes of things you might do and how you might have gone about them given more time.
+Suppose you don't implement bonus items, no worries. Feel free to share some notes of things you might do and how you might have gone about them given more time.
 
 # Submitting Your Work
 
-**‼️ Be sure to commit your changes to the main branch before submitting ‼️**
+**:bangbang: Be sure to commit your changes to the main branch before submitting :bangbang:**
 
 When you have finished the exercise, please create a bundle of your work by running `npm run bundle` in the project root.
 
-This will create a bundle file called `take-home-challenge.bundle` based on your local main branch. Send the file to us via email or if you received a submission link from your hiring manager, please upload it there.
+This will create a bundle file called `take-home-challenge.bundle` based on your local main branch. Send the file to us via email, or if you received a submission link from your hiring manager, please upload it there.
 
-Thank you and good luck! 🙏
+Thank you, and good luck! :pray:
