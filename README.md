@@ -4,8 +4,6 @@
 
 In this project, you'll build a simple API that fetches some info about a given URL/webpage and makes the results accessible. The goal of this project is to see how you approach a given problem & set of requirements with little constraint on how to approach it.
 
-For reference, our stack is largely based on TypeScript & Node.js. We use PostgreSQL for our primary database, but any relational database is fine. **How you tackle this project is entirely up to you!**
-
 - [Vizion API Challenge](#vizion-api-challenge)
 - [Setting Up](#setting-up)
 - [Requirements](#requirements)
@@ -19,6 +17,8 @@ For reference, our stack is largely based on TypeScript & Node.js. We use Postgr
 # Setting Up
 
 To get started, make sure you have Node.js installed. We recommend the [active LTS release](https://nodejs.org/en/about/releases/). Afterward, clone this repository. The project will contain an empty `index.js` file you're free to begin working in. If you have another approach in mind, just delete this file.
+
+FYI, our stack is largely based on TypeScript & Node.js. We use PostgreSQL for our primary database, but any relational database is fine. **How you tackle this project is entirely up to you!**
 
 # Requirements
 
