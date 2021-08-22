@@ -33,7 +33,7 @@ Develop a [RESTful](https://restfulapi.net/) API to complete the following:
 #### 2. Process the New Reference
 
 - Implement an async worker function that processes the reference. This function should take a [`Reference`](#reference) as an argument.
-- Given the [`Reference`](#reference) `url` field, get the text content from the page's `title` and `meta name="description"` elements (if they exist).
+- Given the [`Reference`](#reference) `url` field, get the text content from the page's `title` and any `meta` elements (if they exist) with their names and values serialized to create a semi-structured representation of a page's title & metadata.
 - Return the data as an object and create a new [`Result`](#result) record in the database, storing the info as JSON or a serialized string into the record's `data` column.
 
 #### 3. Make the Results Accessible
