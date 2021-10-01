@@ -44,6 +44,9 @@ Develop a [RESTful](https://restfulapi.net/) API to complete the following:
 
 In your processing task, you'll need to fetch the contents of a webpage and extract information from its DOM. To do this we recommend either fetching the HTML via an HTTP request and parsing the markup into a traversable DOM using libraries like [JSDOM](https://github.com/jsdom/jsdom) & [Cheerio](https://cheerio.js.org/), or using browser automation tools like [Puppeteer](https://github.com/puppeteer/puppeteer) & [Playwright](https://playwright.dev/).
 
+**⚠️ BEWARE! ⚠️**
+Fetching HTML via HTTP and being able to extract your information without any additional effort is becoming increasingly less common these days with the rise of JS-dependent rendering, SPAs, and other complexities like bot detection or browser fingerprinting. If you'd like to challenge yourself a bit further, check out [https://toscrape.com], which has a number of great scenarios already laid out and designed to be extracted!
+
 # Data Models
 
 ## Reference
