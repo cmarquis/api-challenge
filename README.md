@@ -38,7 +38,7 @@ Develop a [RESTful](https://restfulapi.net/) API to complete the following:
 
 #### 3. Make the Results Accessible
 
-- Add another GET endpoint that allows a user to fetch results for a given [`Reference`](#reference) ID. This endpoint should return a list of saved results for a given [`Result`](#result) as JSON. Don't forget to keep it RESTful and keep [resource naming best practices](https://restfulapi.net/resource-naming/) in mind as you go.
+- Add a new GET endpoint that allows a user to fetch results for a given [`Reference`](#reference) ID. This endpoint should return a list of saved [`Results`](#result) for a given [`Reference`](#reference) as JSON. Don't forget to keep it RESTful and keep [resource naming best practices](https://restfulapi.net/resource-naming/) in mind as you go.
 
 ## Data Fetching Notes
 
