@@ -78,6 +78,7 @@ Other things that are not required, but we would love to see:
 - Additional validations
 - More endpoints (fetch all references, delete a reference & its results, etc.)
 - Make use of an actual job queue (Redis, ElasticMQ, etc.)
+- Scheduling/interval-based reprocessing of existing references to monitor changes
 - Anything else you can think of!
 
 Suppose you don't implement bonus items, no worries. Feel free to share some notes of things you might do and how you might have gone about them given more time.
