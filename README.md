@@ -81,7 +81,7 @@ A result is created after a data fetching task for a `Reference` is completed.
 
 ## Write a Setup Guide
 
-Document instructions for getting your solution up and running. Your project will be run, tested, and assessed using your instructions—assume no dependencies will be pre-installed.
+Document instructions for getting your solution up and running. Your project will be run, tested, and assessed using your instructions—assume no dependencies will be pre-installed other than Docker and Node.
 
 ## Bonus Points
 
