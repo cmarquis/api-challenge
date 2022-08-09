@@ -13,7 +13,7 @@ In this project, you'll build a simple API that fetches some info about a given 
 
 To get started, make sure you have Node.js installed. We recommend the [active LTS release](https://nodejs.org/en/about/releases/). 
 
-Afterward, clone this repository. This project contains an empty `index.js` file; you're free to begin working there. If you have another approach in mind, delete this file.
+Afterward, clone or download this repository locally (please don't fork). This project contains an empty `index.js` file; you're free to begin working there. If you have another approach in mind, delete this file.
 
 FYI, our product stack is mostly using TypeScript with Node.js. We use PostgreSQL for our primary database. **How you decide to tackle this project is entirely up to you, but keep these details in mind as you build.**
 
