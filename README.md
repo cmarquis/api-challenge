@@ -15,7 +15,7 @@ To get started, make sure you have Node.js installed. We recommend the [active L
 
 Afterward, clone or download this repository locally (please don't fork). This project contains an empty `index.js` file; you're free to begin working there. If you have another approach in mind, delete this file.
 
-FYI, our product stack is mostly using TypeScript with Node.js. We use PostgreSQL for our primary database. **How you decide to tackle this project is entirely up to you, but keep these details in mind as you build.**
+FYI, our product stack is mostly using TypeScript running on Node.js. We use PostgreSQL for our primary database. **How you decide to tackle this project is entirely up to you, but keep these details in mind as you build. Submitting your solution using TypeScript is highly recommended.**
 
 ## Requirements
 
